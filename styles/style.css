@@ -81,6 +81,12 @@ header {
 
 .assett-img {
   height: 105px;
+  width: 67px;
+  margin: 18px auto;
+}
+
+.assett-img-2 {
+  height: 105px;
   margin: 18px auto;
 }
 
@@ -131,6 +137,7 @@ header {
 
 .video-img {
   width: 100px;
+  height: 57px;
   margin: 0px 0px 10px 18px;
   cursor: pointer;
 }
@@ -180,9 +187,11 @@ header {
 
 .logo-tj {
   width: 100px;
+  height: 29px;
 }
 .logo-mc {
   width: 100px;
+  height: 30px;
 }
 
 .section-third {
@@ -213,6 +222,7 @@ header {
 
 .logo-flag {
   height: 70px;
+  width: 70px;
 }
 
 .contact-item {
@@ -246,6 +256,7 @@ footer {
 .logo-footer {
   cursor: pointer;
   width: 60px;
+  height: 60px;
   margin: 0 5px;
 }
 
@@ -255,6 +266,7 @@ footer {
   }
   .logo {
     height: 60px;
+    width: 170px;
   }
   .background-img {
     height: 500px;
@@ -271,6 +283,10 @@ footer {
   }
   .assett-img {
     height: 80px;
+    width: 67px;
+  }
+  .assett-img-2 {
+    height: 80px;
   }
   .card-item {
     width: 200px;
@@ -286,6 +302,7 @@ footer {
   }
   .logo-footer {
     width: 50px;
+    height: 50px;
   }
   footer {
     padding: 35px 0px 60px 0px;
@@ -313,6 +330,7 @@ footer {
   }
   .assett-img {
     height: 100px;
+    width: 80px;
   }
   .section-third {
     flex-direction: column;
@@ -347,6 +365,7 @@ footer {
   }
   .logo {
     height: 50px;
+    width: 50px;
   }
   .background-img {
     display: none;
