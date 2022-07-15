@@ -30,7 +30,6 @@ header {
 }
 @media screen and (max-width: 1300px) {
   header {
-    width: 100%;
     padding: 50px 20px;
   }
 }
@@ -198,7 +197,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1240px;
+  width: 895px;
   max-width: 100%;
   margin: 40px auto;
   padding: 0 20px;
@@ -214,7 +213,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 900px;
+  width: 780px;
   max-width: 100%;
   margin: 0px auto;
   padding: 0 20px;
