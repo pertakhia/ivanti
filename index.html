@@ -433,7 +433,7 @@ footer {
   }
   .logo {
     height: 50px!important;
-    width: 170px!important;
+    width: 140px!important;
   }
 }
 @media only screen and (max-width: 580px) {
@@ -450,6 +450,15 @@ footer {
   .top-padding {
     padding-top: 70px!important;
   }
+  .display-none{
+    display: none!important;
+  }
+}
+@media only screen and (min-width: 580px) {
+  /* mobile-specific CSS styles go here */
+  .display-hidden {
+    display: none!important;
+  }
 }
   </style>
     <table
@@ -458,6 +467,12 @@ footer {
       <tr>
         <td align="center" class="top-padding" style="padding: 100px 20px;">
           <table class="table-responsive" style="width: 800px; border-collapse:collapse;border:0;border-spacing:0;">
+            <tr class="display-hidden">
+              <td align="center">
+                <img class="logo" style="height: 70px; width: 190px;
+                cursor: pointer;" src="./images/logo.png" alt="logo" />
+              </td>  
+              </tr>
             <tr  class="responsive">
               <td  align="left"  >
                 <h1 class="respons-text-header" style="text-align: center;
@@ -471,11 +486,12 @@ footer {
                   <span class="underline">certified</span> add-ons
                 </h1>
               </td>
-              <td align="right">
-                <img class="logo" style="height: 70px;
+              <td align="right" class="display-none">
+                <img class="logo" style="height: 70px; width: 190px;
                   cursor: pointer;" src="./images/logo.png" alt="logo" />
               </td>
             </tr>
+           
           </table>
         </td>
       </tr>
